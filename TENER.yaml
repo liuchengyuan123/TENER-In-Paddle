@@ -1,0 +1,38 @@
+# character embedding dim
+char_embed_dim: 30
+
+# word embedding dim
+word_embed_dim: 100
+
+# char convolution kernel size
+cnn_dim: 3
+
+# number of kernels
+n_kernals: 1
+
+# first character embedding dim
+hidden_dim: 50
+
+# initial max len
+init_size: 1200
+
+# Number of layers stacked together.
+n_layer: 1
+
+# Number of attention heads.  
+n_head: 1
+
+# Dimension of keys and queries.  
+d_key: 128
+
+# Dimension of values.
+d_value: 128
+
+# attention out put dim
+d_model: 128
+
+# Dimension of the feed forward layer inside.
+d_inner_hid: 256
+
+# default dropout
+dropout_prob: 0.1
